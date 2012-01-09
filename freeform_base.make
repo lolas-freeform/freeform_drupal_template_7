@@ -27,9 +27,3 @@ projects[zen][type] = "theme"
 
 libraries[profiler][download][type] = "get"
 libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-6.x-2.0-beta2.tar.gz"
-
-; Profiles ===========================================
-
-projects[freeform_base][type] = "profile"
-projects[freeform_base][download][type] = "git"
-projects[freeform_base][download][url] = "git://github.com/freeform/freeform-drupal-template.git"
