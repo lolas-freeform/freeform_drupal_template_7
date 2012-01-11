@@ -18,10 +18,6 @@ projects[strongarm][type] = "module"
 ; Custom Modules
 
 ; Features
-;projects[fragile_admin][download][type] = "git"
-;projects[fragile_admin][download][url] = "git://github.com/freeform/feature_fragile_admin.git"
-;projects[fragile_admin][type] = "module"
-;projects[fragile_admin][subdir] = "features"
 
 ; Themes
 ; --------

@@ -21,6 +21,12 @@ dependencies[] = system
 dependencies[] = user
 
 ; Contrib
+dependencies[] = admin_menu
+dependencies[] = cck
+dependencies[] = views
+dependencies[] = features
+dependencies[] = strongarm
+
 ; Custom
 
 ; -----------------------------------------------------------------------------
@@ -33,11 +39,11 @@ dependencies[] = user
 ; site name and site email variables (@see Variables below). 
 ; -----------------------------------------------------------------------------
 
-;users[superduper][uid]    = 1
-;users[superduper][name]   = admin
-;users[superduper][mail]   = admin@admin
-;users[superduper][roles]  = Admin,Publisher
-;users[superduper][status] = 1
+users[superduper][uid]    = 1
+users[superduper][name]   = admin
+users[superduper][mail]   = admin@admin
+users[superduper][roles]  = Admin,Publisher
+users[superduper][status] = 1
 
 ; -----------------------------------------------------------------------------
 ;                                  Variables
