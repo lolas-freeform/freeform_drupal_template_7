@@ -23,6 +23,7 @@ dependencies[] = user
 ; Contrib
 dependencies[] = admin_menu
 dependencies[] = cck
+dependencies[] = ctools
 dependencies[] = views
 dependencies[] = features
 dependencies[] = strongarm

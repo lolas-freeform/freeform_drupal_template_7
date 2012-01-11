@@ -6,12 +6,19 @@ api = 2
 ; --------
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][type] = "module"
+
 projects[cck][subdir] = "contrib"
 projects[cck][type] = "module"
+
+projects[ctools][subdir] = "contrib"
+projects[ctools][type] = "module"
+
 projects[views][subdir] = "contrib"
 projects[views][type] = "module"
+
 projects[features][subdir] = "contrib"
 projects[features][type] = "module"
+
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][type] = "module"
 
