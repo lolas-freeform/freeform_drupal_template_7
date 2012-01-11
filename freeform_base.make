@@ -13,6 +13,9 @@ projects[cck][type] = "module"
 projects[ctools][subdir] = "contrib"
 projects[ctools][type] = "module"
 
+projects[devel][subdir] = "contrib"
+projects[devel][type] = "module"
+
 projects[views][subdir] = "contrib"
 projects[views][type] = "module"
 

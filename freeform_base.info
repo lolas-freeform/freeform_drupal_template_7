@@ -22,11 +22,13 @@ dependencies[] = user
 
 ; Contrib
 dependencies[] = admin_menu
-dependencies[] = cck
+;dependencies[] = cck
 dependencies[] = ctools
-dependencies[] = views
+dependencies[] = devel
 dependencies[] = features
-dependencies[] = strongarm
+;dependencies[] = strongarm
+dependencies[] = views
+dependencies[] = views_ui
 
 ; Custom
 
