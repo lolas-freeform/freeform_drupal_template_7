@@ -12,23 +12,29 @@ theme = zen
 ; -----------------------------------------------------------------------------
 
 ; Core
+dependencies[] = contact
+dependencies[] = dblog
 dependencies[] = filter
-dependencies[] = help
 dependencies[] = menu
 dependencies[] = node
 dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = help
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = search
 dependencies[] = system
 dependencies[] = user
 
 ; Contrib
-dependencies[] = admin_menu
+;dependencies[] = admin_menu
 ;dependencies[] = cck
-dependencies[] = ctools
-dependencies[] = devel
-dependencies[] = features
+;dependencies[] = ctools
+;dependencies[] = devel
+;dependencies[] = features
 ;dependencies[] = strongarm
-dependencies[] = views
-dependencies[] = views_ui
+;dependencies[] = views
+;dependencies[] = views_ui
 
 ; Custom
 
@@ -42,11 +48,11 @@ dependencies[] = views_ui
 ; site name and site email variables (@see Variables below). 
 ; -----------------------------------------------------------------------------
 
-users[superduper][uid]    = 1
-users[superduper][name]   = admin
-users[superduper][mail]   = admin@admin
-users[superduper][roles]  = Admin,Publisher
-users[superduper][status] = 1
+;users[superduper][uid]    = 1
+;users[superduper][name]   = admin
+;users[superduper][mail]   = admin@admin
+;users[superduper][roles]  = Admin,Publisher
+;users[superduper][status] = 1
 
 ; -----------------------------------------------------------------------------
 ;                                  Variables
@@ -59,12 +65,12 @@ users[superduper][status] = 1
 ; variables need to be set if you want to bypass the Configuration form during 
 ; installation (@see Users for more information on how this is accomplished).
 ; -----------------------------------------------------------------------------
-variables[site_name] = Freeform Example
-variables[site_mail] = testing@testing
+;variables[site_name] = Freeform Example
+;variables[site_mail] = testing@testing
 
-variables[site_footer] = Freeform Example
-variables[site_frontpage] = node/1
-variables[theme_settings][toggle_node_info_page] = 0
+;variables[site_footer] = Freeform Example
+;variables[site_frontpage] = node/1
+;variables[theme_settings][toggle_node_info_page] = 0
 
 ; You may also want to set the clean url variable if you don't need clean urls. 
 ; Since we bypassed the configuration screen, it is enabled by default, so to 
