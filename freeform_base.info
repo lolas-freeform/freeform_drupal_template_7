@@ -37,10 +37,15 @@ dependencies[] = advanced_help
 ; Content
 dependencies[] = better_formats
 dependencies[] = calendar
+dependencies[] = content
 dependencies[] = date
 dependencies[] = email
+dependencies[] = fieldgroup
 dependencies[] = link
-dependencies[] = cck
+dependencies[] = nodereference
+dependencies[] = number
+dependencies[] = optionwidgets
+dependencies[] = text
 dependencies[] = views
 dependencies[] = views_ui
 
