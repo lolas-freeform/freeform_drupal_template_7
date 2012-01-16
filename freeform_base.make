@@ -55,8 +55,8 @@ projects[wysiwyg_linebreaks][type] = "module"
 ; Feeds & Services
 projects[feeds][subdir] = "contrib"
 projects[feeds][type] = "module"
-projects[job_scheduler][subdir] = "contrib"
-projects[job_scheduler][type] = "module"
+;projects[job_scheduler][subdir] = "contrib"
+;projects[job_scheduler][type] = "module"
 projects[services][subdir] = "contrib"
 projects[services][type] = "module"
 
@@ -224,7 +224,7 @@ projects[freeform_media_content][subdir] = "features"
 ; Themes =============================
 ; --------
 projects[omega][type] = "theme"
-projects[fusion][type] = "theme"
+;projects[fusion][type] = "theme"
   
   
 ; Libraries ==============================
