@@ -218,6 +218,8 @@ projects[fusion][type] = "theme"
   
 ; Libraries ==============================
 ; ---------
+libraries[profiler][download][type] = "get"
+libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz"
 ;libraries[html5bp][download][type] = "file"
 ;libraries[html5bp][download][url] = "http://github.com/paulirish/html5-boilerplate/zipball/v1.0stripped"
 ;libraries[jquery][download][type] = "file"
