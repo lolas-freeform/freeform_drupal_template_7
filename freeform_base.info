@@ -1,8 +1,7 @@
 name = Freeform Base Drupal Template
 description = A base distribution for Freeform's clients
+version = VERSION
 core = 7.x
-theme = omega
-
 ; -----------------------------------------------------------------------------
 ;                                  Modules
 ; -----------------------------------------------------------------------------
@@ -18,13 +17,16 @@ dependencies[] = contact
 dependencies[] = contextual
 dependencies[] = dblog
 dependencies[] = dashboard
-dependencies[] = field
-dependencies[] = field_sql_storage
 dependencies[] = field_ui
+dependencies[] = file
 dependencies[] = filter
 dependencies[] = help
+dependencies[] = image
+dependencies[] = list
 dependencies[] = menu
 dependencies[] = node
+dependencies[] = number
+dependencies[] = options
 dependencies[] = overlay
 dependencies[] = path
 dependencies[] = rdf
@@ -36,6 +38,7 @@ dependencies[] = taxonomy
 dependencies[] = toolbar
 dependencies[] = update
 dependencies[] = user
+files[] = freeform_base.profile
 
 ; Features
 dependencies[] = features
@@ -87,7 +90,7 @@ variables[theme_settings][toggle_node_info_page] = 0
 ; -----------------------------------------------------------------------------
 ;                                    Nodes
 ; -----------------------------------------------------------------------------
-nodes[front][type] = page
-nodes[front][title] = Welcome to Freeform!
-nodes[front][uid] = 1
-nodes[front][body] = <p>Thank you for installing the base Freeform install!</p>
+;nodes[front][type] = page
+;nodes[front][title] = Welcome to Freeform!
+;nodes[front][uid] = 1
+;nodes[front][body] = <p>Thank you for installing the base Freeform install!</p>
