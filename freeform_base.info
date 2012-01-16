@@ -1,7 +1,7 @@
 name = Freeform Base Drupal Template
 description = A base distribution for Freeform's clients
-core = 6.x
-theme = zen
+core = 7.x
+theme = omega
 
 ; -----------------------------------------------------------------------------
 ;                                  Modules
@@ -12,63 +12,38 @@ theme = zen
 ; -----------------------------------------------------------------------------
 
 ; Core
-dependencies[] = contact
-dependencies[] = dblog
-dependencies[] = filter
-dependencies[] = menu
-dependencies[] = node
-dependencies[] = path
-dependencies[] = taxonomy
-dependencies[] = help
 dependencies[] = block
 dependencies[] = comment
+dependencies[] = contact
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = dashboard
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = overlay
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = shortcut
 dependencies[] = search
 dependencies[] = statistics
 dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = toolbar
+dependencies[] = update
 dependencies[] = user
-
-; Contrib
-
-; Admin
-;dependencies[] = admin_menu
-;dependencies[] = adminrole
-;dependencies[] = advanced_help
-
-; Content
-;dependencies[] = better_formats
-;dependencies[] = calendar
-;dependencies[] = content
-;dependencies[] = date
-;dependencies[] = email
-;dependencies[] = fieldgroup
-;dependencies[] = link
-;dependencies[] = nodereference
-;dependencies[] = number
-;dependencies[] = optionwidgets
-;dependencies[] = text
-;dependencies[] = views
-;dependencies[] = views_ui
-
-; Editor
-;dependencies[] = wysiwyg
-;dependencies[] = wysiwyg_filter
-;dependencies[] = wysiwyg_linebreaks
 
 ; Features
 dependencies[] = features
 dependencies[] = strongarm
-
-; Paths
-;dependencies[] = pathauto
-;dependencies[] = token
-
-; Utility
-;dependencies[] = masquerade
 ;dependencies[] = ctools
-;dependencies[] = devel
-;dependencies[] = google_analytics
 
 ; Custom
+dependencies[] = freeform_base_7
 
 ; -----------------------------------------------------------------------------
 ;                                   Users
@@ -97,18 +72,17 @@ dependencies[] = strongarm
 ; variables need to be set if you want to bypass the Configuration form during 
 ; installation (@see Users for more information on how this is accomplished).
 ; -----------------------------------------------------------------------------
-;variables[site_name] = Freeform Example
-;variables[site_mail] = testing@testing
+variables[site_name] = Freeform Template
+variables[site_mail] = testing@testing
 
-;variables[site_footer] = Freeform Example
-;variables[site_frontpage] = node/1
-;variables[theme_settings][toggle_node_info_page] = 0
+variables[site_footer] = Freeform Example
+variables[site_frontpage] = node/1
+variables[theme_settings][toggle_node_info_page] = 0
 
 ; You may also want to set the clean url variable if you don't need clean urls. 
 ; Since we bypassed the configuration screen, it is enabled by default, so to 
 ; disable it you'll want to uncomment this line:
  variables[clean_url] = 1
- variables[site_frontpage] = node/1
 
 ; -----------------------------------------------------------------------------
 ;                                    Nodes
