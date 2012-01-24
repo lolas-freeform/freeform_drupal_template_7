@@ -47,6 +47,7 @@ dependencies[] = strongarm
 
 ; Custom
 dependencies[] = freeform_base_7
+dependencies[] = freeform_media_content
 
 ; -----------------------------------------------------------------------------
 ;                                   Users
@@ -78,14 +79,14 @@ dependencies[] = freeform_base_7
 variables[site_name] = Freeform Template
 variables[site_mail] = testing@testing
 
-variables[site_footer] = Freeform Example
-variables[site_frontpage] = node/1
-variables[theme_settings][toggle_node_info_page] = 0
+;variables[site_footer] = Freeform Example
+;variables[site_frontpage] = node/1
+;variables[theme_settings][toggle_node_info_page] = 0
 
 ; You may also want to set the clean url variable if you don't need clean urls. 
 ; Since we bypassed the configuration screen, it is enabled by default, so to 
 ; disable it you'll want to uncomment this line:
- variables[clean_url] = 1
+; variables[clean_url] = 1
 
 ; -----------------------------------------------------------------------------
 ;                                    Nodes
