@@ -9,6 +9,9 @@ projects[drupal][type] = core
 ; Admin
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][type] = "module"
+projects[admin_menu][subdir] = "contrib"
+projects[admin_menu][type] = "module"
+
 
 ; Content
 
@@ -147,6 +150,8 @@ projects[pathauto][type] = "module"
 projects[token][subdir] = "contrib"
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][type] = "module"
+projects[omega_tools][subdir] = "contrib"
+projects[omega_tools][type] = "module"
 
 ; Content Access
 projects[content_access][subdir] = "contrib"
