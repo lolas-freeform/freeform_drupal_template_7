@@ -163,14 +163,14 @@ projects[workbench_media][type] = "module"
 ; Features =========================
 
 projects[freeform_base_7][download][type] = "git"
-projects[freeform_base_7][download][url] = "git://github.com/freeform/features_freeform_base_7.git"
+projects[freeform_base_7][download][url] = "git://github.com/lolas-freeform/features_freeform_base_7.git"
 projects[freeform_base_7][type] = "module"
 projects[freeform_base_7][subdir] = "features"
 
-projects[freeform_media_content][download][type] = "git"
-projects[freeform_media_content][download][url] = "git://github.com/freeform/features_freeform_media_content_7.git"
-projects[freeform_media_content][type] = "module"
-projects[freeform_media_content][subdir] = "features"
+;projects[freeform_media_content][download][type] = "git"
+;projects[freeform_media_content][download][url] = "git://github.com/freeform/features_freeform_media_content_7.git"
+;projects[freeform_media_content][type] = "module"
+;projects[freeform_media_content][subdir] = "features"
 
 ; Themes =============================
 ; --------
