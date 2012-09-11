@@ -17,19 +17,10 @@ projects[admin_menu][type] = "module"
 
 projects[calendar][subdir] = "contrib"
 projects[calendar][type] = "module"
-
-; Relation and Entity Reference are both
-; possible inheritors of node/user reference
-projects[relation][subdir] = "contrib"
-projects[relation][type] = "module"
-;projects[relation_select][subdir] = "contrib"
-;projects[relation_select][type] = "module"
-
 projects[field_permissions][subdir] = "contrib"
 projects[field_permissions][type] = "module"
 projects[field_group][subdir] = "contrib"
 projects[field_group][type] = "module"
-
 projects[date][subdir] = "contrib"
 projects[date][type] = "module"
 projects[diff][subdir] = "contrib"
@@ -42,10 +33,6 @@ projects[link][subdir] = "contrib"
 projects[link][type] = "module"
 projects[print][subdir] = "contrib"
 projects[print][type] = "module"
-projects[stringoverrides][subdir] = "contrib"
-projects[stringoverrides][type] = "module"
-projects[webform][subdir] = "contrib"
-projects[webform][type] = "module"
 
 ; Editor
 projects[wysiwyg][subdir] = "contrib"
@@ -54,6 +41,10 @@ projects[wysiwyg_filter][subdir] = "contrib"
 projects[wysiwyg_filter][type] = "module"
 projects[wysiwyg_linebreaks][subdir] = "contrib"
 projects[wysiwyg_linebreaks][type] = "module"
+projects[imce][subdir] = "contrib"
+projects[imce][type] = "module"
+projects[imce_wysiwyg][subdir] = "contrib"
+projects[imce_wysiwyg][type] = "module"
 
 ; Feeds & Services
 ;projects[feeds][subdir] = "contrib"
@@ -83,43 +74,19 @@ projects[seo_checklist][type] = "module"
 projects[xmlsitemap][subdir] = "contrib"
 projects[xmlsitemap][type] = "module"
 
-; Usability
-projects[multiselect][subdir] = "contrib"
-projects[multiselect][type] = "module"
-projects[taxonomy_manager][subdir] = contrib
-projects[term_merge][subdir] = contrib
-
 ; User
-projects[profile2][subdir] = "contrib"
-projects[profile2][type] = "module"
-projects[logintoboggan][subdir] = "contrib"
-projects[logintoboggan][type] = "module"
 projects[masquerade][subdir] = "contrib"
 projects[masquerade][type] = "module"
 projects[mollom][subdir] = "contrib"
 projects[mollom][type] = "module"
 
 ; Navigation and Layout
-projects[advanced_forum][subdir] = "contrib"
-projects[advanced_forum][type] = "module"
 projects[context][subdir] = "contrib"
 projects[context][type] = "module"
-projects[custom_breadcrumbs][subdir] = contrib
-projects[empty_page][subdir] = "contrib"
-projects[empty_page][type] = "module"
-projects[front][subdir] = "contrib"
-projects[front][type] = "module"
 projects[menu_block][subdir] = "contrib"
 projects[menu_block][type] = "module"
-
-; Power menu instead of Menu Trails
-projects[power_menu][subdir] = "contrib"
-projects[power_menu][type] = "module"
-
 projects[nice_menus][subdir] = "contrib"
 projects[nice_menus][type] = "module"
-projects[panels][subdir] = "contrib"
-projects[panels][type] = "module"
 
 ; Languages
 projects[l10n_client][subdir] = "contrib"
@@ -146,6 +113,7 @@ projects[jquery_update][type] = "module"
 projects[pathauto][subdir] = "contrib"
 projects[libraries][subdir] = "contrib"
 projects[libraries][type] = "module"
+projects[pathauto][subdir] = "contrib"
 projects[pathauto][type] = "module"
 projects[token][subdir] = "contrib"
 projects[strongarm][subdir] = "contrib"
@@ -164,20 +132,6 @@ projects[content_access][type] = "module"
 ;projects[notifications][subdir] = "contrib"
 ;projects[notifications][type] = "module"
 
-; Location and Mapping
-;projects[openlayers][subdir] = "contrib"
-;projects[openlayers][type] = "module"
-;projects[geofield][subdir] = "contrib"
-;projects[geofield][type] = "module"
-;projects[geocoder][subdir] = "contrib"
-;projects[geocoder][type] = "module"
-;projects[addressfield][subdir] = "contrib"
-;projects[addressfield][type] = "module"
-
-; Groups
-projects[og][subdir] = "contrib"
-projects[og][type] = "module"
-
 ; Views
 projects[better_exposed_filters][subdir] = "contrib"
 projects[better_exposed_filters][type] = "module"
@@ -189,14 +143,6 @@ projects[views_bulk_operations][type] = "module"
 ; successor to views_customfield though in dev
 projects[views_php][subdir] = "contrib"
 projects[views_php][type] = "module"
-
-; Workflow
-projects[flag][subdir] = "contrib"
-projects[flag][type] = "module"
-projects[rules][subdir] = "contrib"
-projects[rules][type] = "module"
-projects[workflow][subdir] = "contrib"
-projects[workflow][type] = "module"
 
 ; Workbench is alternative to workflow
 ; with improved interface for editors
