@@ -76,8 +76,13 @@ dependencies[] = freeform_media_content
 ; variables need to be set if you want to bypass the Configuration form during 
 ; installation (@see Users for more information on how this is accomplished).
 ; -----------------------------------------------------------------------------
-variables[site_name] = Freeform Template
-variables[site_mail] = testing@testing
+;variables[site_name] = Freeform Template
+;variables[site_mail] = testing@testing
+;variables[site_403] = <front>
+variables[user_cancel_method] = user_cancel_block
+variables[update_check_frequency] = 7
+variables[update_notification_threshold] = security
+variables[update_notify_emails] = security-drupal@freeformsolutions.ca
 
 ;variables[site_footer] = Freeform Example
 ;variables[site_frontpage] = node/1
