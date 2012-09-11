@@ -78,7 +78,7 @@ dependencies[] = freeform_media_content
 ; -----------------------------------------------------------------------------
 ;variables[site_name] = Freeform Template
 ;variables[site_mail] = testing@testing
-;variables[site_403] = <front>
+variables[site_403] = <front>
 variables[user_cancel_method] = user_cancel_block
 variables[update_check_frequency] = 7
 variables[update_notification_threshold] = security
